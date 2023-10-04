@@ -8,19 +8,19 @@ A cheat sheet for useful shell commands.
 To find all files with a given keyword (case-sensitive) in the current and sub-directories and display the file name and line:
 
 ```bash
-grep -r "free_this_file" .
+grep -r "keyword" .
 ```
 
 To find all files with a given keyword (case-insensitive) in the current and sub-directories and display the file name and line:
 
 ```bash
-grep -ri "free_this_file" .
+grep -ri "keyword" .
 ```
 
 To find all files with a given keyword (case-sensitive) in the current and sub-directories and display just the file name:
 
 ```bash
-grep -rl "free_this_file" .
+grep -rl "keyword" .
 ```
 
 ### Find and Replace in Files
